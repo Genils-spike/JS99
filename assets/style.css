@@ -1,0 +1,77 @@
+body, html{
+	margin: 0;
+	overflow-y: hidden;
+	color: white;
+	font-family: arial;
+}
+
+h1{
+	margin: 0;
+	font-size: 5vh;
+}
+
+p{
+	margin: 0;
+}
+
+#treasure{
+	height: 15em;
+	width: 15em;
+	margin: calc(50vh - 10em) auto;
+	background-color: #F5A618;
+	display: flex;
+	border: 15px solid #F59818;
+	border-radius: 50%;
+}
+
+#treasure:hover{
+	cursor: pointer;
+}
+
+#treasure:active{
+	transform: scale(1.1, 1.1);
+	transition: 50ms;
+}
+
+#upgrade, #clicker, #units{
+	height: 100vh;
+	float: left;
+	overflow-y: hidden;
+}
+
+#upgrade, #units{
+	width: 33vw;
+	background-color: #2E2E2D;
+}
+
+#clicker{
+	width: 34vw;
+	background-image: url("img/background.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#gold{
+	font-weight: bold;
+	font-size: 10vh;
+	text-align: center;
+}
+
+
+
+#units ul{
+	margin : 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#units ul li{
+	height: 10vh;
+}
+
+#units ul li:hover{
+	color: #2E2E2D;
+	background-color: lightgrey;
+	cursor: pointer;
+}
